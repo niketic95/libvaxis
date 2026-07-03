@@ -5,12 +5,12 @@
     .minimum_zig_version = "0.16.0",
     .dependencies = .{
         .zigimg = .{
-            .url = "git+https://github.com/zigimg/zigimg#d695acd97c02e57bb151e8f659d1280f5cd6ca70",
-            .hash = "zigimg-0.1.0-8_eo2oyaFwBZwJpmqPkCfVXWBrHcqbYwmrp1I6bTD3lI",
+            .url = "git+https://github.com/niketic95/zigimg.git?ref=zig-0.17#b0a97ada8f1916ce91683dfc1f68970427a43f78",
+            .hash = "zigimg-0.1.0-8_eo2tnEFwAgRRZaR-gl4gxVWTsh25sk-3fJ7UTMkeyx",
         },
         .uucode = .{
-            .url = "git+https://github.com/jacobsandlund/uucode#2826a37a4562284fdacd8fa029d49509cc9bffcd",
-            .hash = "uucode-0.2.0-ZZjBPlK5VADj7fdoq7G8LIHzD5o6FSkcBXXrRWr4jnrA",
+            .url = "git+https://github.com/niketic95/uucode.git?ref=zig-0.17#0e07a10f060d0dc3189aaeb95cebcb4377d48088",
+            .hash = "uucode-0.2.0-ZZjBPpe_VADXXupY-TSGEEzjlphrJmp5fVb5vIqHhY8D",
             .lazy = true,
         },
     },
